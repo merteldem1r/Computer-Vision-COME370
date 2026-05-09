@@ -34,3 +34,6 @@ models/*.pth
 # Large data files
 data/raw/
 data/processed/
+
+# env
+*.env
