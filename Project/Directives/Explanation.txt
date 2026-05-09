@@ -1,0 +1,1 @@
+Write code that extracts the locations within the GND using the I1 and I2 images. Detect the patient’s name, create a folder in that name, and save the cropped image there.
