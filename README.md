@@ -41,6 +41,8 @@ CTVision-Med-Extractor/
 - Reads medical images (I1, I2) and their ground truth versions
 - Prepares images for processing and visualization
 
+  <img src="images/image-1.png" width="100%" />
+
 #### Step 2: Image Preprocessing
 
 - **Grayscale Conversion**: Converts BGR images to grayscale
@@ -53,11 +55,15 @@ CTVision-Med-Extractor/
 - Applies OCR to preprocessed images using Tesseract
 - Extracts patient information from specific regions
 
+  <img src="images/image-2.png" width="100%" />
+
 #### Step 4: Named Entity Recognition (NER)
 
 - Sends extracted text to Hugging Face API
 - Uses BERT-base-NER model to identify patient names
 - Extracts structured entity information
+
+  <img src="images/image-3.png" width="100%" />
 
 #### Step 5: Region Detection & Extraction
 
@@ -65,6 +71,8 @@ CTVision-Med-Extractor/
 - Extracts bounding rectangles around detected circles
 - Creates circular masks to isolate region of interest
 - Saves cropped regions in patient-specific directories
+
+  <img src="images/image-4.png" width="100%" />
 
 ### How to Run
 
