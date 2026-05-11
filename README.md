@@ -59,8 +59,9 @@ CTVision-Med-Extractor/
 
 #### Step 4: Named Entity Recognition (NER)
 
-- Sends extracted text to Hugging Face API
+- **NER Model**: https://huggingface.co/dslim/bert-base-NER
 - Uses BERT-base-NER model to identify patient names
+- Sends extracted text to Hugging Face API
 - Extracts structured entity information
 
   <img src="images/image-3.png" width="100%" />
